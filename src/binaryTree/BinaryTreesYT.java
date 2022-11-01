@@ -36,8 +36,8 @@ public class BinaryTreesYT {
                 System.out.println("-1");
                 return;
             }
-            System.out.println(root.data + " ");
             preorder(root.left);
+            System.out.println(root.data + " ");
             preorder(root.right);
         }
 
